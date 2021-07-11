@@ -3,6 +3,7 @@
 	"version": "1.0.0",
 	"description": "A simple webpack module bundler template",
 	"main": "dist/index.js",
+	"module": "dist/index.js",
 	"scripts": {
 		"build": "webpack",
 		"start": "set NODE_ENV='development'&&webpack"
